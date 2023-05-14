@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# присваиваем значение переменной USER
+USER="Your Name"
+
+# выводим текущую дату
+echo "Today's date is $(date)"
+
+# поприветствуем пользователя по имени
+echo "Hello, $USER!"
+
+# выводим текущую директорию
+echo "I am working in the directory $(pwd)"
